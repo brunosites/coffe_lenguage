@@ -1,12 +1,18 @@
-DOCUMENTAÇÃO DA LINGUAGEM .cof
-📌 Visão Geral
+#DOCUMENTAÇÃO DA LINGUAGEM .cof
+#📌 Visão Geral
 .cof é uma linguagem interpretada simples, educacional, com sintaxe em português, ideal para aprender lógica de programação.
 
-🖨️ Saída de texto
+#🖨️ Saída de texto
 show text("Olá mundo")
 
 
-📦 Variáveis
+#🖨️ Saída de variaveis
+vari nome: "Ana"
+show text("Olá " + nome)
+
+
+
+#📦 Variáveis
 String
 vari nome: "Lucas"
 
@@ -23,7 +29,7 @@ vari x: x + 1
 vari y: x * 2
 
 
-🔀 Condicionais
+#🔀 Condicionais
 Igualdade
 if nome == "Lucas":
     show text("Bem-vindo")
@@ -53,7 +59,7 @@ else:
 endif
 
 
-🔁 Loops
+#🔁 Loops
 Loop FOR
 loop for(3):
     show text("Executando")
@@ -68,7 +74,7 @@ while contador < 3:
 endwhile
 
 
-🧩 Funções
+#🧩 Funções
 Definição
 func saudacao():
     show text("Olá!")
@@ -78,11 +84,11 @@ Chamada
 call saudacao()
 
 
-💬 Comentários
-# Isso é um comentário
+#💬 Comentários
+## Isso é um comentário
 
 
-🧪 Exemplo Completo
+#🧪 Exemplo Completo
 show text("Início")
 
 vari nome: input("Nome: ")
@@ -99,3 +105,4 @@ loop for(2):
 endloop
 
 show text("Fim")
+
